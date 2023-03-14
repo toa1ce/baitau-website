@@ -1,0 +1,51 @@
+main {
+  padding-bottom: 32px;
+}
+main section .main-content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main section .main-content .main-text h2 span {
+  text-transform: none !important;
+}
+main section .main-content .main-img img {
+  margin-right: 0px !important;
+  margin-top: -50px;
+}
+
+#about-cards {
+  padding: 45px 0 20px 0;
+}
+#about-cards .row {
+  margin: 0 auto;
+}
+#about-cards .row .about-card {
+  width: 360px;
+  height: 236px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding-left: 31px;
+  margin: 15px 20px;
+}
+#about-cards .row .about-card .about-card-icon img {
+  margin: 16px 0 22px 0;
+}
+#about-cards .row .about-card .about-card-text h3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #263238;
+}
+#about-cards .row .about-card .about-card-text p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #263238;
+}
